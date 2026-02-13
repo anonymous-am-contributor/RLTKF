@@ -13,7 +13,7 @@ This repository implements a Reinforcement Learning framework for tuning Linear 
 - kalman_env.py contains the full definition of the RL environment used for the RLTKF implementation. 
 
 - kf_utils.py provides :
-	-implementation of the linear Kalman filter 
+  	-implementation of the linear Kalman filter 
 	-function to generate simulation scenarios from a given bank of (A, H) matrices.
 
 - test_functions.py defines all baseline methods used for comparison and provides the evaluation procedures for trained RL agents. It includes functions to compute RMSE and to generate plots that compare the performance of the different methods as a function of observability levels.
