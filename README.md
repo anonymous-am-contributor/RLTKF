@@ -10,7 +10,7 @@ This repository implements a Reinforcement Learning framework for tuning Linear 
 
 - main_rltkf_training.py is the main training script. It loads a previously generated bank and launches the training of the RL-based Kalman tuning agent. Many aspects can be configured, including what is included in the state space given to the agent, the action space definition, the reward formulation, the noise parameters, and general training hyperparameters.
 
-- kalman_env.py contains the full definition of the RL environment used for the RL-TKF implementation. 
+- kalman_env.py contains the full definition of the RL environment used for the RLTKF implementation. 
 
 - kf_utils.py provides :
 	-implementation of the linear Kalman filter 
