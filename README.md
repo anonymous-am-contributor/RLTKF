@@ -1,6 +1,6 @@
 # RLTKF
 RLTKF Anonymized code for review.
-This repository implements a Reinforcement Learning framework for tuning Linear Kalman Filters under varying observability conditions. It provides tools to generate controlled banks of (A, H) matrix pairs, train RL agents, compare them with classical baseline methods, and evaluate performance in terms of RMSE. You can find the following files : 
+This repository implements a Reinforcement Learning framework for tuning Linear Kalman Filters under varying observability levels. It provides tools to generate controlled banks of (A, H) matrix pairs, train RL agents, compare them with classical baseline methods, and evaluate performance in terms of RMSE. You can find the following files : 
 
 - generate_bank_AH.py is used to generate banks of (A, H) matrix couples. The user can specify :
 	- the number of couples
