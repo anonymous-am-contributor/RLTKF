@@ -7,7 +7,6 @@ This repository implements a Reinforcement Learning framework for tuning Linear 
 	- the state dimension
 	- the number of measurements
 	- and other structural and spectral parameters described in the article, including properties related to observability. 
-The generated bank is then used for training and evaluation.
 
 - main_rltkf_training.py is the main training script. It loads a previously generated bank and launches the training of the RL-based Kalman tuning agent. Many aspects can be configured, including what is included in the state space given to the agent, the action space definition, the reward formulation, the noise parameters, and general training hyperparameters.
 
