@@ -16,6 +16,6 @@ This repository implements a Reinforcement Learning framework for tuning Linear 
 	- implementation of the linear Kalman filter
 	- function to generate simulation scenarios from a given bank of (A, H) matrices.
 
-- test_functions.py defines all baseline methods used for comparison and provides the evaluation procedures for trained RL agents. It includes functions to compute RMSE and to generate plots that compare the performance of the different methods as a function of observability levels.
+- test_functions.py defines all baseline methods used for comparison and provides the evaluation procedures for trained RL agents. It includes functions to compute RMSE and to generate plots that compare the performance of the different methods as a function of observability levels (AS IT IS DONE IN THE FIGURE 2 OF THE PAPER).
 
 The typical workflow consists of generating a bank of systems, training the RL agent using this bank, and then evaluating its performance against the baseline methods. 
